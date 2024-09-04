@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            /* Bege */
+            color: #333;
+        }
+
+        header {
+            background-color: #6f4f28;
+            /* Marrom */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        
+        .image-container {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+            height: 100vh; /* Ajuste das imagens */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #fff;
+            border-bottom: 2px solid #6f4f28;
+            /* Marrom */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #6f4f28;
+            /* Marrom */
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.3s;
+        }
+
+        nav a:hover,
+        nav a:target {
+            background: #d6cfc2;
+            /* Bege claro */
+            color: #6f4f28;
+            /* Marrom */
+            transform: scale(1.05);
+        }
+
+        .section {
+            display: none;
+            padding: 40px 20px;
+            border-bottom: 2px solid #d6cfc2;
+            /* Bege claro */
+        }
+
+        .section:target {
+            display: block;
+        }
+
+        .section h2 {
+            color: #6f4f28;
+            /* Marrom */
+        }
+
+        .form-container {
+            background: #fff;
+            border: 1px solid #6f4f28;
+            /* Marrom */
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            padding: 10px;
+            border: none;
+            background: #6f4f28;
+            /* Marrom */
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .form-container button:hover {
+            background: #4a3d2d;
+            /* Marrom mais escuro */
+        }
+
+                
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao meu pequeno espaço</h1>
+    </header>
+    <nav>
+        <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#formacao-academica">Formação Acadêmica</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <div id="sobre-mim" class="section">
+            <h2>Sobre Mim</h2>
+            <img src="sobre mim.jpg">
+            <p>Olá! Meu nome é Airis Natalin e tenho 23 anos. Atualmente sou estudante e moro com meu namorado, o que
+                torna
+                o dia a dia ainda mais especial.</p>
+            <br <p>Sou uma pessoa que aprecia a simplicidade e os pequenos prazeres da vida. Uma das minhas paixões é a
+            leitura; sempre encontro um bom livro para me perder e me envolver em novas histórias. Além disso, gosto
+            de me dedicar ao crochê, uma atividade que me relaxa e me permite criar peças únicas e cheias de
+            carinho.</p> <br <p>Quando não estou lendo ou crocheting, você pode me encontrar imersa em um bom jogo de
+            videogame ou
+            explorando mundos fantásticos em RPGs. Esses hobbies são uma forma maravilhosa de escapar da rotina e me
+            divertir com amigos ou sozinha.</p>
+            <br <p> Assistir a filmes e séries é uma das minhas maneiras favoritas de relaxar e me entreter. Também
+            tenho um
+            gosto especial por escrever, seja em um diário, blog ou em qualquer outro formato que me permita
+            expressar minhas ideias e sentimentos.</p>
+            <br <p>No meu dia a dia, trabalho bastante porque valorizo o dinheiro e as oportunidades que ele pode
+            proporcionar. Acredito que o esforço vale a pena, especialmente quando se trata de alcançar meus
+            objetivos e sonhos.</p>
+            <br <p>E claro, adoro comer! Seja experimentando novos pratos ou saboreando minhas comidas favoritas, a
+            gastronomia é uma verdadeira paixão para mim.</p>
+            <br <p>Espero que possamos compartilhar interesses e experiências!</p>
+
+            </p>
+        </div>
+        <div id="formacao-academica" class="section">
+            <img src="acad.jpg">
+            <h2>Formação Acadêmica</h2>
+            <p>Minha carreira começou como técnico de recursos humanos, área na qual desenvolvi valiosas habilidades em
+                gestão de pessoas e processos administrativos. Além disso, estudei administração, o que me permitiu ter
+                uma visão abrangente das operações empresariais e da dinâmica organizacional. Apesar de ter adquirido
+                uma base sólida em recursos humanos e administração, percebi que a minha verdadeira paixão estava noutro
+                lado.</p><br <p>Com o tempo, meu interesse por tecnologia começou a crescer. A curiosidade e a vontade
+            de compreender
+            como as soluções tecnológicas moldam o mundo levaram-me a descobrir novas oportunidades. Então decidi
+            que era hora de seguir um novo caminho e mergulhar mais fundo no mundo da tecnologia.</p> <br <p>Atualmente
+            cursa Análise e Desenvolvimento de Sistemas na Universidade Uninter, estou finalizando o primeiro semestre.
+            Este novo
+            curso foi uma experiência transformadora, permitindo-me adquirir conhecimentos técnicos e habilidades
+            práticas que moldarão minha nova carreira. A transição tem sido difícil, mas extremamente gratificante
+            porque estou entrando em uma área que me fascina e oferece muitas oportunidades de desenvolvimento.</p>
+        </div>
+        <div id="portfolio" class="section">
+            <img src="port.jpg">
+            <h2>Portfólio</h2>
+            <p>Bem-vindo ao meu portfólio!
+
+                Aqui encontrará uma seleção dos meus projetos mais recentes e relevantes, que refletem a minha evolução
+                e competências na área tecnológica focada em programação e desenvolvimento de websites. Cada projeto foi
+                escolhido para demonstrar meu compromisso em fornecer soluções criativas e eficazes. Se tratam de apenas
+                testes ainda, mas em breve terei trabalhos reais.</p>
+            <ol>
+                <li>https://natmat-mat.github.io/Card-pio-da-Doceria-Natalin/</li>
+                <li>https://natmat-mat.github.io/pizzariaaa/</li>
+
+            </ol>
+        </div>
+        <div id="contato" class="section">
+            <img src="cell.jpg">
+            <h2>Contato</h2>
+            <div class="form-container">
+                <p>Por favor, qualquer duvida entre em contato comigo <3 </p>
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="Telefone">Telefone:</label>
+                    <input type="Telefone" id="Telefone" name="Telefone" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+</body>
+
+</html>
