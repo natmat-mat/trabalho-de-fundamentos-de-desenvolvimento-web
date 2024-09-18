@@ -30,6 +30,14 @@
             align-items: center;
             height: 100vh; /* Ajuste das imagens */
         }
+
+        .centralizar-imagem {
+             display: block;
+             margin: 0 auto; /* Centraliza horizontalmente */
+             max-width: 100%; /* Ajusta a largura máxima */
+            height: auto; /* Mantém a proporção */
+}
+
         nav {
             display: flex;
             justify-content: center;
@@ -127,7 +135,7 @@
     <div class="container">
         <div id="sobre-mim" class="section">
             <h2>Sobre Mim</h2>
-            <img src="sobre mim.jpg">
+            <img class="centralizar imagem" src="sobre mim.jpg">
             <p>Olá! Meu nome é Airis Natalin e tenho 23 anos. Atualmente sou estudante e moro com meu namorado, o que
                 torna
                 o dia a dia ainda mais especial.</p>
@@ -152,7 +160,7 @@
             </p>
         </div>
         <div id="formacao-academica" class="section">
-            <img src="acad.jpg">
+            <img class="centralizar imagem" src="acad.jpg">
             <h2>Formação Acadêmica</h2>
             <p>Minha carreira começou como técnico de recursos humanos, área na qual desenvolvi valiosas habilidades em
                 gestão de pessoas e processos administrativos. Além disso, estudei administração, o que me permitiu ter
@@ -168,8 +176,8 @@
             práticas que moldarão minha nova carreira. A transição tem sido difícil, mas extremamente gratificante
             porque estou entrando em uma área que me fascina e oferece muitas oportunidades de desenvolvimento.</p>
         </div>
-        <div id="portfolio" class="section">
-            <img src="port.jpg">
+        <div  id="portfolio" class="section">
+            <img class="centralizar imagem" src="port.jpg">
             <h2>Portfólio</h2>
             <p>Bem-vindo ao meu portfólio!
 
@@ -184,7 +192,7 @@
             </ol>
         </div>
         <div id="contato" class="section">
-            <img src="cell.jpg">
+            <img class="centralizar imagem" src="cell.jpg">
             <h2>Contato</h2>
             <div class="form-container">
                 <p>Por favor, qualquer duvida entre em contato comigo <3 </p>
